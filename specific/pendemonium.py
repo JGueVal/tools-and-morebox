@@ -13,15 +13,15 @@ nootnootpingu = int(input("Repeat: "))
 
 sleep(3)
 
-# maybe lower times can be achieved. I haven't
-#  tried with fastforward on.
+# I tried with lower sleep times, but sometimes
+#  it doesn't register putting the pen caps.
 while conta < nootnootpingu:
     print(conta,end="\r")
-    sleep(0.26)
+    sleep(0.3)
     keyboard.press('z')
     sleep(0.1)
     keyboard.release('z')
-    sleep(0.01)
+    sleep(0.02)
     keyboard.press('x')
     sleep(0.1)
     keyboard.release('x')
